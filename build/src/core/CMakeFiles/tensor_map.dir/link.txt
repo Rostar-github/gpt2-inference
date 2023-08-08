@@ -1,0 +1,2 @@
+/usr/bin/ar qc libtensor_map.a  CMakeFiles/tensor_map.dir/tensor_map.cpp.o
+/usr/bin/ranlib libtensor_map.a

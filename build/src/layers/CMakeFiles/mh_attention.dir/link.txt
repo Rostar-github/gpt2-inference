@@ -1,0 +1,2 @@
+/usr/bin/ar qc libmh_attention.a  CMakeFiles/mh_attention.dir/mh_attention.cpp.o
+/usr/bin/ranlib libmh_attention.a

@@ -1,0 +1,2 @@
+/usr/bin/ar qc liblm_head.a  CMakeFiles/lm_head.dir/lm_head.cpp.o
+/usr/bin/ranlib liblm_head.a

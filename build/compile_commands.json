@@ -1,0 +1,147 @@
+[
+{
+  "directory": "/wanglina/cuda/cuda_example/build/src/core",
+  "command": "/usr/bin/g++   -I/wanglina/cuda/cuda_example/. -I/usr/local/cuda-11.0/include -I/wanglina/cuda/cuda_example/./3rdparty/cnpy/include  -g   -o CMakeFiles/check_cuda.dir/check_cuda.cpp.o -c /wanglina/cuda/cuda_example/src/core/check_cuda.cpp",
+  "file": "/wanglina/cuda/cuda_example/src/core/check_cuda.cpp"
+},
+{
+  "directory": "/wanglina/cuda/cuda_example/build/src/core",
+  "command": "/usr/bin/g++   -I/wanglina/cuda/cuda_example/. -I/usr/local/cuda-11.0/include -I/wanglina/cuda/cuda_example/./3rdparty/cnpy/include  -g   -o CMakeFiles/tensor_map.dir/tensor_map.cpp.o -c /wanglina/cuda/cuda_example/src/core/tensor_map.cpp",
+  "file": "/wanglina/cuda/cuda_example/src/core/tensor_map.cpp"
+},
+{
+  "directory": "/wanglina/cuda/cuda_example/build/src/core",
+  "command": "/usr/bin/g++   -I/wanglina/cuda/cuda_example/. -I/usr/local/cuda-11.0/include -I/wanglina/cuda/cuda_example/./3rdparty/cnpy/include  -g   -o CMakeFiles/mem_pool.dir/mem_pool.cpp.o -c /wanglina/cuda/cuda_example/src/core/mem_pool.cpp",
+  "file": "/wanglina/cuda/cuda_example/src/core/mem_pool.cpp"
+},
+{
+  "directory": "/wanglina/cuda/cuda_example/build/src/core",
+  "command": "/usr/bin/g++   -I/wanglina/cuda/cuda_example/. -I/usr/local/cuda-11.0/include -I/wanglina/cuda/cuda_example/./3rdparty/cnpy/include  -g   -o CMakeFiles/mem_ops.dir/mem_ops.cpp.o -c /wanglina/cuda/cuda_example/src/core/mem_ops.cpp",
+  "file": "/wanglina/cuda/cuda_example/src/core/mem_ops.cpp"
+},
+{
+  "directory": "/wanglina/cuda/cuda_example/build/src/core",
+  "command": "/usr/bin/g++   -I/wanglina/cuda/cuda_example/. -I/usr/local/cuda-11.0/include -I/wanglina/cuda/cuda_example/./3rdparty/cnpy/include  -g   -o CMakeFiles/tensor.dir/tensor.cpp.o -c /wanglina/cuda/cuda_example/src/core/tensor.cpp",
+  "file": "/wanglina/cuda/cuda_example/src/core/tensor.cpp"
+},
+{
+  "directory": "/wanglina/cuda/cuda_example/build/src/kernels",
+  "command": "/usr/local/cuda-11.0/bin/nvcc   -I/wanglina/cuda/cuda_example/. -I/usr/local/cuda-11.0/include -I/wanglina/cuda/cuda_example/./3rdparty/cnpy/include  -g   -x cu -c /wanglina/cuda/cuda_example/src/kernels/gemm.cu -o CMakeFiles/kernels.dir/gemm.cu.o",
+  "file": "/wanglina/cuda/cuda_example/src/kernels/gemm.cu"
+},
+{
+  "directory": "/wanglina/cuda/cuda_example/build/src/kernels",
+  "command": "/usr/local/cuda-11.0/bin/nvcc   -I/wanglina/cuda/cuda_example/. -I/usr/local/cuda-11.0/include -I/wanglina/cuda/cuda_example/./3rdparty/cnpy/include  -g   -x cu -c /wanglina/cuda/cuda_example/src/kernels/transpose.cu -o CMakeFiles/kernels.dir/transpose.cu.o",
+  "file": "/wanglina/cuda/cuda_example/src/kernels/transpose.cu"
+},
+{
+  "directory": "/wanglina/cuda/cuda_example/build/src/kernels",
+  "command": "/usr/local/cuda-11.0/bin/nvcc   -I/wanglina/cuda/cuda_example/. -I/usr/local/cuda-11.0/include -I/wanglina/cuda/cuda_example/./3rdparty/cnpy/include  -g   -x cu -c /wanglina/cuda/cuda_example/src/kernels/input_encoder.cu -o CMakeFiles/kernels.dir/input_encoder.cu.o",
+  "file": "/wanglina/cuda/cuda_example/src/kernels/input_encoder.cu"
+},
+{
+  "directory": "/wanglina/cuda/cuda_example/build/src/kernels",
+  "command": "/usr/local/cuda-11.0/bin/nvcc   -I/wanglina/cuda/cuda_example/. -I/usr/local/cuda-11.0/include -I/wanglina/cuda/cuda_example/./3rdparty/cnpy/include  -g   -x cu -c /wanglina/cuda/cuda_example/src/kernels/kernel_utils.cu -o CMakeFiles/kernels.dir/kernel_utils.cu.o",
+  "file": "/wanglina/cuda/cuda_example/src/kernels/kernel_utils.cu"
+},
+{
+  "directory": "/wanglina/cuda/cuda_example/build/src/kernels",
+  "command": "/usr/local/cuda-11.0/bin/nvcc   -I/wanglina/cuda/cuda_example/. -I/usr/local/cuda-11.0/include -I/wanglina/cuda/cuda_example/./3rdparty/cnpy/include  -g   -x cu -c /wanglina/cuda/cuda_example/src/kernels/qkv_add_bias.cu -o CMakeFiles/kernels.dir/qkv_add_bias.cu.o",
+  "file": "/wanglina/cuda/cuda_example/src/kernels/qkv_add_bias.cu"
+},
+{
+  "directory": "/wanglina/cuda/cuda_example/build/src/kernels",
+  "command": "/usr/local/cuda-11.0/bin/nvcc   -I/wanglina/cuda/cuda_example/. -I/usr/local/cuda-11.0/include -I/wanglina/cuda/cuda_example/./3rdparty/cnpy/include  -g   -x cu -c /wanglina/cuda/cuda_example/src/kernels/qk_scale_gemm.cu -o CMakeFiles/kernels.dir/qk_scale_gemm.cu.o",
+  "file": "/wanglina/cuda/cuda_example/src/kernels/qk_scale_gemm.cu"
+},
+{
+  "directory": "/wanglina/cuda/cuda_example/build/src/kernels",
+  "command": "/usr/local/cuda-11.0/bin/nvcc   -I/wanglina/cuda/cuda_example/. -I/usr/local/cuda-11.0/include -I/wanglina/cuda/cuda_example/./3rdparty/cnpy/include  -g   -x cu -c /wanglina/cuda/cuda_example/src/kernels/softmax.cu -o CMakeFiles/kernels.dir/softmax.cu.o",
+  "file": "/wanglina/cuda/cuda_example/src/kernels/softmax.cu"
+},
+{
+  "directory": "/wanglina/cuda/cuda_example/build/src/kernels",
+  "command": "/usr/local/cuda-11.0/bin/nvcc   -I/wanglina/cuda/cuda_example/. -I/usr/local/cuda-11.0/include -I/wanglina/cuda/cuda_example/./3rdparty/cnpy/include  -g   -x cu -c /wanglina/cuda/cuda_example/src/kernels/layer_norm.cu -o CMakeFiles/kernels.dir/layer_norm.cu.o",
+  "file": "/wanglina/cuda/cuda_example/src/kernels/layer_norm.cu"
+},
+{
+  "directory": "/wanglina/cuda/cuda_example/build/src/kernels",
+  "command": "/usr/local/cuda-11.0/bin/nvcc   -I/wanglina/cuda/cuda_example/. -I/usr/local/cuda-11.0/include -I/wanglina/cuda/cuda_example/./3rdparty/cnpy/include  -g   -x cu -c /wanglina/cuda/cuda_example/src/kernels/concate_heads.cu -o CMakeFiles/kernels.dir/concate_heads.cu.o",
+  "file": "/wanglina/cuda/cuda_example/src/kernels/concate_heads.cu"
+},
+{
+  "directory": "/wanglina/cuda/cuda_example/build/src/kernels",
+  "command": "/usr/local/cuda-11.0/bin/nvcc   -I/wanglina/cuda/cuda_example/. -I/usr/local/cuda-11.0/include -I/wanglina/cuda/cuda_example/./3rdparty/cnpy/include  -g   -x cu -c /wanglina/cuda/cuda_example/src/kernels/add_bias_residual_ln.cu -o CMakeFiles/kernels.dir/add_bias_residual_ln.cu.o",
+  "file": "/wanglina/cuda/cuda_example/src/kernels/add_bias_residual_ln.cu"
+},
+{
+  "directory": "/wanglina/cuda/cuda_example/build/src/kernels",
+  "command": "/usr/local/cuda-11.0/bin/nvcc   -I/wanglina/cuda/cuda_example/. -I/usr/local/cuda-11.0/include -I/wanglina/cuda/cuda_example/./3rdparty/cnpy/include  -g   -x cu -c /wanglina/cuda/cuda_example/src/kernels/add_bias_gelu.cu -o CMakeFiles/kernels.dir/add_bias_gelu.cu.o",
+  "file": "/wanglina/cuda/cuda_example/src/kernels/add_bias_gelu.cu"
+},
+{
+  "directory": "/wanglina/cuda/cuda_example/build/src/kernels",
+  "command": "/usr/local/cuda-11.0/bin/nvcc   -I/wanglina/cuda/cuda_example/. -I/usr/local/cuda-11.0/include -I/wanglina/cuda/cuda_example/./3rdparty/cnpy/include  -g   -x cu -c /wanglina/cuda/cuda_example/src/kernels/add_bias_residual.cu -o CMakeFiles/kernels.dir/add_bias_residual.cu.o",
+  "file": "/wanglina/cuda/cuda_example/src/kernels/add_bias_residual.cu"
+},
+{
+  "directory": "/wanglina/cuda/cuda_example/build/src/kernels",
+  "command": "/usr/local/cuda-11.0/bin/nvcc   -I/wanglina/cuda/cuda_example/. -I/usr/local/cuda-11.0/include -I/wanglina/cuda/cuda_example/./3rdparty/cnpy/include  -g   -x cu -c /wanglina/cuda/cuda_example/src/kernels/gready_search.cu -o CMakeFiles/kernels.dir/gready_search.cu.o",
+  "file": "/wanglina/cuda/cuda_example/src/kernels/gready_search.cu"
+},
+{
+  "directory": "/wanglina/cuda/cuda_example/build/src/layers",
+  "command": "/usr/bin/g++   -I/wanglina/cuda/cuda_example/. -I/usr/local/cuda-11.0/include -I/wanglina/cuda/cuda_example/./3rdparty/cnpy/include  -g   -o CMakeFiles/ln_norm.dir/ln_norm.cpp.o -c /wanglina/cuda/cuda_example/src/layers/ln_norm.cpp",
+  "file": "/wanglina/cuda/cuda_example/src/layers/ln_norm.cpp"
+},
+{
+  "directory": "/wanglina/cuda/cuda_example/build/src/layers",
+  "command": "/usr/bin/g++   -I/wanglina/cuda/cuda_example/. -I/usr/local/cuda-11.0/include -I/wanglina/cuda/cuda_example/./3rdparty/cnpy/include  -g   -o CMakeFiles/self_attention.dir/self_attention.cpp.o -c /wanglina/cuda/cuda_example/src/layers/self_attention.cpp",
+  "file": "/wanglina/cuda/cuda_example/src/layers/self_attention.cpp"
+},
+{
+  "directory": "/wanglina/cuda/cuda_example/build/src/layers",
+  "command": "/usr/bin/g++   -I/wanglina/cuda/cuda_example/. -I/usr/local/cuda-11.0/include -I/wanglina/cuda/cuda_example/./3rdparty/cnpy/include  -g   -o CMakeFiles/decoder.dir/decoder.cpp.o -c /wanglina/cuda/cuda_example/src/layers/decoder.cpp",
+  "file": "/wanglina/cuda/cuda_example/src/layers/decoder.cpp"
+},
+{
+  "directory": "/wanglina/cuda/cuda_example/build/src/layers",
+  "command": "/usr/bin/g++   -I/wanglina/cuda/cuda_example/. -I/usr/local/cuda-11.0/include -I/wanglina/cuda/cuda_example/./3rdparty/cnpy/include  -g   -o CMakeFiles/feed_forward.dir/feed_forward.cpp.o -c /wanglina/cuda/cuda_example/src/layers/feed_forward.cpp",
+  "file": "/wanglina/cuda/cuda_example/src/layers/feed_forward.cpp"
+},
+{
+  "directory": "/wanglina/cuda/cuda_example/build/src/layers",
+  "command": "/usr/bin/g++   -I/wanglina/cuda/cuda_example/. -I/usr/local/cuda-11.0/include -I/wanglina/cuda/cuda_example/./3rdparty/cnpy/include  -g   -o CMakeFiles/embedding.dir/embedding.cpp.o -c /wanglina/cuda/cuda_example/src/layers/embedding.cpp",
+  "file": "/wanglina/cuda/cuda_example/src/layers/embedding.cpp"
+},
+{
+  "directory": "/wanglina/cuda/cuda_example/build/src/layers",
+  "command": "/usr/bin/g++   -I/wanglina/cuda/cuda_example/. -I/usr/local/cuda-11.0/include -I/wanglina/cuda/cuda_example/./3rdparty/cnpy/include  -g   -o CMakeFiles/lm_head.dir/lm_head.cpp.o -c /wanglina/cuda/cuda_example/src/layers/lm_head.cpp",
+  "file": "/wanglina/cuda/cuda_example/src/layers/lm_head.cpp"
+},
+{
+  "directory": "/wanglina/cuda/cuda_example/build/src/layers",
+  "command": "/usr/bin/g++   -I/wanglina/cuda/cuda_example/. -I/usr/local/cuda-11.0/include -I/wanglina/cuda/cuda_example/./3rdparty/cnpy/include  -g   -o CMakeFiles/mh_attention.dir/mh_attention.cpp.o -c /wanglina/cuda/cuda_example/src/layers/mh_attention.cpp",
+  "file": "/wanglina/cuda/cuda_example/src/layers/mh_attention.cpp"
+},
+{
+  "directory": "/wanglina/cuda/cuda_example/build/src/models/gpt",
+  "command": "/usr/bin/g++   -I/wanglina/cuda/cuda_example/. -I/usr/local/cuda-11.0/include -I/wanglina/cuda/cuda_example/./3rdparty/cnpy/include  -g   -o CMakeFiles/gpt.dir/gpt.cpp.o -c /wanglina/cuda/cuda_example/src/models/gpt/gpt.cpp",
+  "file": "/wanglina/cuda/cuda_example/src/models/gpt/gpt.cpp"
+},
+{
+  "directory": "/wanglina/cuda/cuda_example/build/test",
+  "command": "/usr/bin/g++   -I/wanglina/cuda/cuda_example/. -I/usr/local/cuda-11.0/include -I/wanglina/cuda/cuda_example/./3rdparty/cnpy/include  -g   -o CMakeFiles/model_test.dir/model_test.cpp.o -c /wanglina/cuda/cuda_example/test/model_test.cpp",
+  "file": "/wanglina/cuda/cuda_example/test/model_test.cpp"
+},
+{
+  "directory": "/wanglina/cuda/cuda_example/build/test",
+  "command": "/usr/bin/g++   -I/wanglina/cuda/cuda_example/. -I/usr/local/cuda-11.0/include -I/wanglina/cuda/cuda_example/./3rdparty/cnpy/include  -g   -o CMakeFiles/kernel_test.dir/kernel_test.cpp.o -c /wanglina/cuda/cuda_example/test/kernel_test.cpp",
+  "file": "/wanglina/cuda/cuda_example/test/kernel_test.cpp"
+},
+{
+  "directory": "/wanglina/cuda/cuda_example/build/test",
+  "command": "/usr/bin/g++   -I/wanglina/cuda/cuda_example/. -I/usr/local/cuda-11.0/include -I/wanglina/cuda/cuda_example/./3rdparty/cnpy/include  -g   -o CMakeFiles/layer_test.dir/layer_test.cpp.o -c /wanglina/cuda/cuda_example/test/layer_test.cpp",
+  "file": "/wanglina/cuda/cuda_example/test/layer_test.cpp"
+}
+]

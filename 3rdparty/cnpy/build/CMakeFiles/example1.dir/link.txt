@@ -1,0 +1,1 @@
+/usr/bin/c++   -std=c++11  -rdynamic CMakeFiles/example1.dir/example1.cpp.o  -o example1 -Wl,-rpath,/wanglina/cuda/cuda_example/3rdparty/cnpy/build libcnpy.so -lz 

@@ -1,0 +1,2 @@
+/usr/bin/ar qc libln_norm.a  CMakeFiles/ln_norm.dir/ln_norm.cpp.o
+/usr/bin/ranlib libln_norm.a

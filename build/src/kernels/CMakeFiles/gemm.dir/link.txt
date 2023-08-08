@@ -1,0 +1,2 @@
+/usr/bin/ar qc libgemm.a  CMakeFiles/gemm.dir/gemm.cu.o
+/usr/bin/ranlib libgemm.a

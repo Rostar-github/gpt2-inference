@@ -1,0 +1,2 @@
+/usr/bin/ar qc libcheck_cuda.a  CMakeFiles/check_cuda.dir/check_cuda.cpp.o
+/usr/bin/ranlib libcheck_cuda.a

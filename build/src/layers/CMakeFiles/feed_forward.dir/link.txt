@@ -1,0 +1,2 @@
+/usr/bin/ar qc libfeed_forward.a  CMakeFiles/feed_forward.dir/feed_forward.cpp.o
+/usr/bin/ranlib libfeed_forward.a

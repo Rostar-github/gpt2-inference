@@ -1,0 +1,9 @@
+/wanglina/cuda/cuda_example/3rdparty/cnpy/build/CMakeFiles/install/strip.dir
+/wanglina/cuda/cuda_example/3rdparty/cnpy/build/CMakeFiles/install/local.dir
+/wanglina/cuda/cuda_example/3rdparty/cnpy/build/CMakeFiles/install.dir
+/wanglina/cuda/cuda_example/3rdparty/cnpy/build/CMakeFiles/cnpy-static.dir
+/wanglina/cuda/cuda_example/3rdparty/cnpy/build/CMakeFiles/cnpy.dir
+/wanglina/cuda/cuda_example/3rdparty/cnpy/build/CMakeFiles/list_install_components.dir
+/wanglina/cuda/cuda_example/3rdparty/cnpy/build/CMakeFiles/example1.dir
+/wanglina/cuda/cuda_example/3rdparty/cnpy/build/CMakeFiles/edit_cache.dir
+/wanglina/cuda/cuda_example/3rdparty/cnpy/build/CMakeFiles/rebuild_cache.dir

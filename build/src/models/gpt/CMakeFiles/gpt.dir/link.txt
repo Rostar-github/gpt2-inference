@@ -1,0 +1,2 @@
+/usr/bin/ar qc libgpt.a  CMakeFiles/gpt.dir/gpt.cpp.o
+/usr/bin/ranlib libgpt.a

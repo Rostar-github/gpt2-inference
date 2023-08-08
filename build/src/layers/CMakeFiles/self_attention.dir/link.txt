@@ -1,0 +1,2 @@
+/usr/bin/ar qc libself_attention.a  CMakeFiles/self_attention.dir/self_attention.cpp.o
+/usr/bin/ranlib libself_attention.a

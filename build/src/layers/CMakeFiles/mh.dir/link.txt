@@ -1,0 +1,2 @@
+/usr/bin/ar qc libmh.a  CMakeFiles/mh.dir/mlp.cpp.o
+/usr/bin/ranlib libmh.a

@@ -1,0 +1,6 @@
+/wanglina/cuda/cuda_example/3rdparty/cnpy/lib/lib/libcnpy.so
+/wanglina/cuda/cuda_example/3rdparty/cnpy/lib/lib/libcnpy.a
+/wanglina/cuda/cuda_example/3rdparty/cnpy/lib/include/cnpy.h
+/wanglina/cuda/cuda_example/3rdparty/cnpy/lib/bin/mat2npz
+/wanglina/cuda/cuda_example/3rdparty/cnpy/lib/bin/npy2mat
+/wanglina/cuda/cuda_example/3rdparty/cnpy/lib/bin/npz2mat

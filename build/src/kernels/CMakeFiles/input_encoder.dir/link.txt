@@ -1,0 +1,2 @@
+/usr/bin/ar qc libinput_encoder.a  CMakeFiles/input_encoder.dir/input_encoder.cu.o
+/usr/bin/ranlib libinput_encoder.a

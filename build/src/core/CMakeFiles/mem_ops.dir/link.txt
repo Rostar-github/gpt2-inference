@@ -1,0 +1,2 @@
+/usr/bin/ar qc libmem_ops.a  CMakeFiles/mem_ops.dir/mem_ops.cpp.o
+/usr/bin/ranlib libmem_ops.a

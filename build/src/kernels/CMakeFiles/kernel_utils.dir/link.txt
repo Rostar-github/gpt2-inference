@@ -1,0 +1,2 @@
+/usr/bin/ar qc libkernel_utils.a  CMakeFiles/kernel_utils.dir/kernel_utils.cu.o
+/usr/bin/ranlib libkernel_utils.a
