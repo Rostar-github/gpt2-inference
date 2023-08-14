@@ -320,7 +320,7 @@ void Layer::forward(Tensor<float>* input, Tensor<float>* output) {
 | add_bias_gelu         |  add bias with gelu in feed forward  |
 | gready_search         |  beam search kernel with window_size = 1   |
 
-这里注意力计算部分还可以进一步优化，利用 tiling softmax 的性质，将 softmax 计算与矩阵分块乘积融合在一起实现 one-step attention kernel。具体实现参考 [Flas Attention](https://arxiv.org/abs/2205.14135), Flash Attention 将注意力计算实现在一个 kernel 中，在保持计算复杂度的同时很大程度上降低了 HWM 的 IO 次数。
+这里注意力计算部分还可以进一步优化，利用 tiling softmax 的性质，将 softmax 计算与矩阵分块乘积融合在一起实现 one-step attention kernel。具体实现参考 [Flash Attention](https://arxiv.org/abs/2205.14135), Flash Attention 将注意力计算实现在一个 kernel 中，在保持计算复杂度的同时很大程度上降低了 HBM 的 IO 次数。
 
 在这里 softmax kernel 被分为两个版本，分别用来计算注意力分数和生成贪婪搜索的概率分布。在注意力计算时，GPT-2 最大序列长度被定义为1024，因此可以用单个 block reduce 配合共享内存来快速实现某一行上的 softmax 计算，而无需将 softmax 拆解，所有计算均在 on-chip SRAM 上进行。在计算词表上的概率分布时，由于长度超过块内规约的最大长度，因此会用一个 block 处理一行，首先进行行内的规约再进行块内规约。这一实现相对与注意力分数计算更加耗时。
 
